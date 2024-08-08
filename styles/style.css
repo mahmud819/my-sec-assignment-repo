@@ -60,10 +60,7 @@ header{
     color: white;
     font-size: 3rem;
     display: none;
-<<<<<<< HEAD
     margin-top: 20px;
-=======
->>>>>>> ee78c5223d206eeb097ea37027c54eeff6f31dd0
 }
 nav ul{
     display: flex;
@@ -390,12 +387,9 @@ nav>ul li a:hover{
     width: 100%;
     height: 100%;
     display: flex;
-<<<<<<< HEAD
     justify-content: right;
     margin-right: -30px;
-=======
     justify-content: center;
->>>>>>> ee78c5223d206eeb097ea37027c54eeff6f31dd0
     /* align-items: center; */
     /* background-image: url('../images/run.jpg'); */
     /* background-position:  center; */
@@ -437,11 +431,8 @@ nav>ul li a:hover{
     .run-img{
         height: auto;
         align-items: center;
-<<<<<<< HEAD
         justify-content: center;
         margin-right: 0;
-=======
->>>>>>> ee78c5223d206eeb097ea37027c54eeff6f31dd0
     }
     .run-img img{
         width: 90%;
@@ -475,10 +466,7 @@ nav>ul li a:hover{
     .run-img{
         width: 90%;
         height: 90%;
-<<<<<<< HEAD
         margin-right: 0;
-=======
->>>>>>> ee78c5223d206eeb097ea37027c54eeff6f31dd0
     }
     .run-img img{
         width: 100%;
@@ -594,31 +582,22 @@ nav>ul li a:hover{
  .calculator table{
     border: 1px solid #ddd;
     border-collapse: collapse;
-<<<<<<< HEAD
     width: 320px;
-=======
->>>>>>> ee78c5223d206eeb097ea37027c54eeff6f31dd0
  }
  .calculator table th{
     color: white;
     border: 1px solid #ddd;
     padding: 15px;
-<<<<<<< HEAD
     font-size: 20px;
     font-weight: bold;
-=======
->>>>>>> ee78c5223d206eeb097ea37027c54eeff6f31dd0
  }
  .calculator table td{
     color: rgba(255, 255, 255, 0.404);
     padding: 10px;
     border: 1px solid #ddd;
     padding: 15px;
-<<<<<<< HEAD
     font-size: 18px;
     text-align: center;
-=======
->>>>>>> ee78c5223d206eeb097ea37027c54eeff6f31dd0
  }
  .input-area{
     width: 50%;
@@ -649,7 +628,6 @@ nav>ul li a:hover{
     background-color: rgba(255, 255, 255, 0.404);
     display: inline-block;
  }
-<<<<<<< HEAD
  .gender,.activity{
     position: relative;
  }
@@ -665,8 +643,6 @@ nav>ul li a:hover{
     margin-left: 445px;
     font-size: 30px;
  }
-=======
->>>>>>> ee78c5223d206eeb097ea37027c54eeff6f31dd0
  .input-area .last-input{
     display: block;
     width: 93%;
@@ -711,7 +687,6 @@ nav>ul li a:hover{
         font-size: 1rem;
         margin-bottom: 1.5rem;
     }
-<<<<<<< HEAD
     .input-area .last-input{
         width: 94%;
     }
@@ -725,8 +700,6 @@ nav>ul li a:hover{
     margin-left: 345px;
     font-size: 23px;
  }
-=======
->>>>>>> ee78c5223d206eeb097ea37027c54eeff6f31dd0
     /* .input-area .last-input{
         width: 95%;
     } */
@@ -751,7 +724,6 @@ nav>ul li a:hover{
     .input-area .last-input{
         width: 92%;
     }
-<<<<<<< HEAD
     .gender-icon{
         position: absolute;
         margin-top: 4px;
@@ -764,8 +736,6 @@ nav>ul li a:hover{
         margin-left: 627px;
         font-size: 22px;
      }
-=======
->>>>>>> ee78c5223d206eeb097ea37027c54eeff6f31dd0
 }
 
  /* Team area style */
