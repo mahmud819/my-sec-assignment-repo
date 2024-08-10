@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Playwrite+CZ:wght@100..400&display=swap');
 
+
+
+.playwrite-cz-font{
+  font-family: "Playwrite CZ", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
 .inter-tight-font{ 
    font-family: "Inter Tight", sans-serif; 
    font-optical-sizing: auto; 
