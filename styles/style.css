@@ -389,7 +389,7 @@ nav>ul li a:hover{
     display: flex;
     justify-content: right;
     margin-right: -30px;
-    justify-content: center;
+    justify-content: right;
     /* align-items: center; */
     /* background-image: url('../images/run.jpg'); */
     /* background-position:  center; */
@@ -814,7 +814,94 @@ nav>ul li a:hover{
 /* team area responsive for tablet */
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
+    .team-container{
+        padding: 2rem 1rem;
+    }
     .team-card{
+        width: 100%;
+    }
+}
+
+/* visit facilities area style */
+
+.facilities-container{
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    background-color: black;
+ }
+.facilities-container h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.facilities-container p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.facilities-card{
+    width: 68rem;
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border-radius: 8px;
+    background-color:  rgba(255, 255, 255, 0.404);
+    /* position: relative; */
+}
+.facilities-child img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.facilitie-1,.facilitie-2,.facilitie-3,
+.facilitie-4{
+    position: relative;
+}
+.facilities-child h4{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.facilities-child p{
+    font-size: 18px;
+    margin-bottom: -15px;
+    color: rgba(255, 255, 255, 0.637);
+}
+.card-title,.card-description{
+    text-align: left;
+    position: absolute;
+    bottom: 2.3rem;
+    margin-left: 10px;
+    z-index: 1;
+}
+
+/* facilitieas area responsive for mobile */
+
+@media screen and (max-width: 576px) {
+    .facilities-container{
+        padding: 1rem;
+    }
+    .facilities-container h1{
+        font-size: 2rem;
+    }
+    .facilities-container p{
+        font-size: 1.2rem;
+    }
+    .facilities-card{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}
+
+/* facilities area responsive for tablet */
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .facilities-container{
+        padding: 2rem 1rem;
+    }
+    .facilities-card{
         width: 100%;
     }
 }
@@ -903,6 +990,6 @@ hr{
     }
 }
 
-.hidden{
+/* .hidden{
     display: none;
-}
+} */
